@@ -16,3 +16,10 @@ while(counter2 < 101) {
     console.log(counter2);
     counter2 = counter2 +2;
 }
+
+let ball_players = [`abe`, `homer`, `bart`];
+let counter3 = 0;
+while(counter3 < ball_players.length) {
+    console.log(ball_players[counter3]);
+    counter3 = counter3 +1;
+}
