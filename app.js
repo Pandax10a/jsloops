@@ -23,3 +23,10 @@ while(counter3 < ball_players.length) {
     console.log(ball_players[counter3]);
     counter3 = counter3 +1;
 }
+
+let player_scores = [100, 77, 88];
+let counter4 = 0;
+while (counter4 < ball_players.lenth) {
+    console.log(ball_players[counter4] + player_scores[counter4]);
+    counter4 = counter4 +1;
+}
