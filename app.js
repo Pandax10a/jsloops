@@ -31,9 +31,14 @@ while (counter4 < ball_players.length) {
     counter4 = counter4 +1;
 }
 
-let player_injured = [false, false, true];
+let player_injured = [true, false, true];
 let counter5 = 0;
-while (!((counter5 < player_injured.length) && (player_injured[counter5]))) {
+while (counter5 < player_injured.length){
+    if(player_injured[counter5]===false){
+
+    
+
     console.log(ball_players[counter5]);
         counter5 = counter5 +1;
+    }
 }
